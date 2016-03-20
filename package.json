@@ -1,0 +1,32 @@
+{
+  "name": "node-session",
+  "version": "0.1.0",
+  "description": "Using sessions to authenticate users on a nodejs server",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cookie-parser": "^1.4.1",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arialblack14/node-session.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "session",
+    "server"
+  ],
+  "author": "Alex Tsiras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arialblack14/node-session/issues"
+  },
+  "homepage": "https://github.com/arialblack14/node-session#readme"
+}
