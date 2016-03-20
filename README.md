@@ -12,10 +12,12 @@ Enable clients to access secure resources on the server after authentication.
 Still in the basic-auth folder, install express-session and session-file-store Node modules as follows:
 ```
      npm install express-session session-file-store --save
-     ```
+```
+
 ### Using express-session
 
-Then create a new file named server-3.js and add the following code to it:
+Then create a new file named server.js and add the following code to it:
+
 ```
 var express = require('express');
 var morgan = require('morgan');
@@ -86,6 +88,7 @@ app.listen(port, hostname, function(){
   console.log(`Server running at http://${hostname}:${port}/`);
 });
 ```
+
 Save the changes, run the server and examine the behavior.
 
 ## Conclusions
